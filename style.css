@@ -9,13 +9,9 @@ body
 background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-yellow-tourism-trolley-case-to-chat-with-image_13961.jpg);
 background-size: cover;
 }
-
-
 .header
 {
-    color: darkblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-variant: small-caps;
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 .header img
 {
@@ -34,9 +30,7 @@ background-size: cover;
 
 #login_button
 {
-    width: 80%;border-radius: 15px;
-    color: white;
-    
+	width: 80%;border-radius: 15px;
 }
 
 .room_name
@@ -66,7 +60,39 @@ background-size: cover;
 {
 	color: white;font-size: 20px;
 }
-#head_img{
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+#heading{
     width: 720px;
     height: 100px;
     margin-left: 8px;
